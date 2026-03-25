@@ -1,47 +1,274 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio personnel SITE Loubna</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'rel='stylesheet'>
-   
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loubna Melaikia — Technicienne IT & Cybersécurité</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-  <header class="header">
-        <a href="#" class="logo">Loubna.</a>
 
-        <nav class="navbar">
-            <a href="#"class="active">Accueil</a>
-            <a href="about.html">A propos de moi</a>
-        
-        </nav>
-    </header>
-    
-    <section class="accueil">
-        <div class="accueil-contenu">
-            <h2>Bonjour, je suis Loubna MELAIKIA</h2>
-            <h3>Technicienne Informatique</h3>
-                <p> Passionnée par l'IT et la cybersécurité, j'adore résoudre des problèmes et relever des défis techniques. 
-                    Curieuse et déterminée, je ne lâche rien tant que je n'ai pas trouvé la meilleure approche.  <br>
-                  <p>  A la recherche d'un esprit dynamique et motivé dans votre équipe ? Travaillons ensemble ! &#128640;</p>
-            <div class="btn-box">
-                <a href="#">Engagez moi</a>
-            </div>
-         </div>
+  <!-- CURSEUR PERSONNALISÉ -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
 
-         <div class="home-sci">
-            <a href=""><i class='bx bxl-instagram'></i></a>
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="https://www.linkedin.com/in/loubna-m-baaa031a6/"target="_blank"><i class='bx bxl-linkedin'></i></a>
-         </div>
-        </section>
-    </body>
+  <!-- ── NAVIGATION ── -->
+  <nav>
+    <a href="#" class="nav-logo">LM<span>.</span></a>
+    <ul>
+      <li><a href="#about">À propos</a></li>
+      <li><a href="#skills">Compétences</a></li>
+      <li><a href="#experience">Expérience</a></li>
+      <li><a href="#formation">Formation</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
 
-         <footer>
-          <p>&copy; 2025 Loubna - Tous droits réservés </p>
-         </footer>
-    
+  <!-- ── HERO ── -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="hero-tag">Disponible · Open to work</div>
+      <h1>
+        <span class="line1">Bonjour, je suis</span>
+        <span class="accent-name glitch" data-text="Loubna Melaikia">Loubna Melaikia</span>
+      </h1>
+      <p class="hero-subtitle">
+        Technicienne Informatique passionnée par l'IT et la <strong>cybersécurité</strong>.
+        Je résous des problèmes complexes, relève des défis techniques, et apporte
+        une énergie déterminée à chaque projet.
+      </p>
+      <div class="hero-btns">
+        <a href="#contact" class="btn-primary">Engagez-moi 🚀</a>
+        <a href="#about" class="btn-outline">En savoir plus</a>
+      </div>
+    </div>
+
+    <div class="status-badge">
+      <div class="badge-circle">
+        <div class="badge-inner">
+          <span class="badge-emoji">🔐</span>
+          <span class="badge-label">IT & Cyber</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── À PROPOS ── -->
+  <section id="about">
+    <div class="section-header fade-in">
+      <span class="section-num">01 —</span>
+      <h2 class="section-title">À propos</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid">
+      <div class="about-text fade-in">
+        <p>
+          Je suis <strong>Loubna Melaikia</strong>, technicienne informatique avec une vraie passion
+          pour les défis techniques, notamment en <strong>cybersécurité</strong>.
+        </p>
+        <p>
+          Curieuse et déterminée, je ne lâche rien tant que je n'ai pas trouvé la
+          <strong>meilleure approche</strong>. J'aime comprendre les systèmes en profondeur,
+          identifier les failles et proposer des solutions robustes.
+        </p>
+        <p>
+          À la recherche d'une équipe dynamique où je peux <strong>apprendre, contribuer</strong>
+          et évoluer dans un environnement stimulant.
+        </p>
+      </div>
+      <div class="about-stats fade-in">
+        <div class="stat-box">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">Motivation</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">IT</span>
+          <span class="stat-label">Domaine</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">🔒</span>
+          <span class="stat-label">Cybersécurité</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">FR</span>
+          <span class="stat-label">Basée en France</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── COMPÉTENCES ── -->
+  <section id="skills">
+    <div class="section-header fade-in">
+      <span class="section-num">02 —</span>
+      <h2 class="section-title">Compétences</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card fade-in">
+        <span class="skill-icon">🔐</span>
+        <div class="skill-name">Cybersécurité</div>
+        <div class="skill-desc">Analyse des vulnérabilités, sécurisation des systèmes, sensibilisation aux bonnes pratiques.</div>
+        <div class="skill-tags">
+          <span class="skill-tag">OWASP</span>
+          <span class="skill-tag">Pentesting</span>
+          <span class="skill-tag">Firewall</span>
+        </div>
+      </div>
+
+      <div class="skill-card fade-in">
+        <span class="skill-icon">🖥️</span>
+        <div class="skill-name">Administration Système</div>
+        <div class="skill-desc">Gestion et maintenance des systèmes Windows et Linux, configuration réseau.</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Windows Server</span>
+          <span class="skill-tag">Linux</span>
+          <span class="skill-tag">Active Directory</span>
+        </div>
+      </div>
+
+      <div class="skill-card fade-in">
+        <span class="skill-icon">🌐</span>
+        <div class="skill-name">Réseaux</div>
+        <div class="skill-desc">Configuration et dépannage des infrastructures réseau, protocoles TCP/IP.</div>
+        <div class="skill-tags">
+          <span class="skill-tag">TCP/IP</span>
+          <span class="skill-tag">VLAN</span>
+          <span class="skill-tag">VPN</span>
+          <span class="skill-tag">DNS/DHCP</span>
+        </div>
+      </div>
+
+      <div class="skill-card fade-in">
+        <span class="skill-icon">🛠️</span>
+        <div class="skill-name">Support Technique</div>
+        <div class="skill-desc">Assistance utilisateurs, résolution d'incidents, documentation technique.</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Help Desk</span>
+          <span class="skill-tag">ITIL</span>
+          <span class="skill-tag">Ticketing</span>
+        </div>
+      </div>
+
+      <div class="skill-card fade-in">
+        <span class="skill-icon">💻</span>
+        <div class="skill-name">Développement & Scripts</div>
+        <div class="skill-desc">Automatisation de tâches, scripts d'administration et bases du développement web.</div>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Bash</span>
+          <span class="skill-tag">HTML/CSS</span>
+        </div>
+      </div>
+
+      <div class="skill-card fade-in">
+        <span class="skill-icon">☁️</span>
+        <div class="skill-name">Cloud & Virtualisation</div>
+        <div class="skill-desc">Bases des environnements cloud et gestion de machines virtuelles.</div>
+        <div class="skill-tags">
+          <span class="skill-tag">VMware</span>
+          <span class="skill-tag">Azure</span>
+          <span class="skill-tag">VirtualBox</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── EXPÉRIENCE ── -->
+  <section id="experience">
+    <div class="section-header fade-in">
+      <span class="section-num">03 —</span>
+      <h2 class="section-title">Expérience</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item fade-in">
+        <div class="timeline-date">2024 — Présent</div>
+        <div class="timeline-title">Technicienne Informatique</div>
+        <div class="timeline-company">En recherche active d'opportunités</div>
+        <div class="timeline-desc">
+          Disponible immédiatement pour un poste en IT ou cybersécurité.
+          Prête à apporter énergie, curiosité et compétences techniques à votre équipe.
+        </div>
+      </div>
+
+      <div class="timeline-item fade-in">
+        <div class="timeline-date">Stage / Alternance</div>
+        <div class="timeline-title">Support IT & Administration Système</div>
+        <div class="timeline-company">Expériences en formation</div>
+        <div class="timeline-desc">
+          Assistance aux utilisateurs, maintenance du parc informatique, configuration
+          réseau et participation à des projets de sécurisation des systèmes.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── FORMATION ── -->
+  <section id="formation">
+    <div class="section-header fade-in">
+      <span class="section-num">04 —</span>
+      <h2 class="section-title">Formation</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="formation-cards">
+
+      <div class="formation-card fade-in">
+        <div class="formation-year">2023 – 2025</div>
+        <div class="formation-degree">BTS SIO — option SISR</div>
+        <div class="formation-school">Solutions d'Infrastructure, Systèmes et Réseaux</div>
+      </div>
+
+      <div class="formation-card fade-in">
+        <div class="formation-year">Certifications</div>
+        <div class="formation-degree">Cybersécurité & Réseaux</div>
+        <div class="formation-school">Formations continues & auto-formation</div>
+      </div>
+
+      <div class="formation-card fade-in">
+        <div class="formation-year">Bac</div>
+        <div class="formation-degree">Baccalauréat</div>
+        <div class="formation-school">Série technologique / générale</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="fade-in">
+      <p class="contact-big">Travaillons<br/><span>ensemble.</span></p>
+      <p class="contact-sub">
+        Vous cherchez un profil motivé, curieux et technique pour rejoindre votre équipe ?
+        N'hésitez pas à me contacter !
+      </p>
+      <!-- 🔧 Remplace l'adresse email ci-dessous par la tienne -->
+      <a href="mailto:ton.email@exemple.com" class="btn-primary" style="font-size:1rem; padding: 1rem 2.5rem;">
+        M'envoyer un email ✉️
+      </a>
+      <div class="contact-links">
+        <!-- 🔧 Remplace les URLs par tes vraies URLs -->
+        <a href="https://www.linkedin.com/in/TON-PROFIL" class="contact-link" target="_blank">
+          🔗 LinkedIn
+        </a>
+        <a href="https://github.com/loubna77290" class="contact-link" target="_blank">
+          💻 GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <p>© 2025 <span class="footer-accent">Loubna Melaikia</span> — Tous droits réservés</p>
+    <p>Conçu avec 💙 et beaucoup de <span class="footer-accent">café</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
