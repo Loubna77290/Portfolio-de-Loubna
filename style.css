@@ -22,7 +22,7 @@ body {
   cursor: none;
 }
 
-/* ── CURSOR ── */
+/* Curseur */
 .cursor {
   width: 10px; height: 10px;
   background: var(--accent);
@@ -46,7 +46,7 @@ body {
   opacity: 0.5;
 }
 
-/* ── GRID BACKGROUND ── */
+/* Fond */
 body::before {
   content: '';
   position: fixed; inset: 0;
@@ -58,7 +58,7 @@ body::before {
   z-index: 0;
 }
 
-/* ── NAV ── */
+/* Menu */
 nav {
   position: fixed; top: 0; left: 0; right: 0;
   z-index: 100;
@@ -109,7 +109,7 @@ nav a:hover::after { width: 100%; }
 }
 .nav-cta:hover { background: var(--accent); color: var(--bg) !important; }
 
-/* ── HERO ── */
+/* Accueil */
 #hero {
   min-height: 100vh;
   display: flex; align-items: center;
@@ -168,7 +168,7 @@ h1 .accent-name {
 
 .hero-btns { display: flex; gap: 1rem; flex-wrap: wrap; }
 
-/* ── BUTTONS ── */
+/* Boutons */
 .btn-primary {
   background: var(--accent);
   color: var(--bg);
@@ -201,7 +201,7 @@ h1 .accent-name {
 }
 .btn-outline:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ── BADGE ── */
+/* Badge */
 .status-badge {
   position: absolute; right: 4rem; top: 50%;
   transform: translateY(-50%);
@@ -237,7 +237,7 @@ h1 .accent-name {
   text-transform: uppercase;
 }
 
-/* ── SECTIONS ── */
+/* Sections */
 section { padding: 6rem 4rem; position: relative; z-index: 1; }
 
 .section-header {
@@ -260,7 +260,7 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
   max-width: 200px;
 }
 
-/* ── ABOUT ── */
+/* À propos */
 #about { border-top: 1px solid var(--border); }
 
 .about-grid {
@@ -298,7 +298,7 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
   letter-spacing: 0.1em;
 }
 
-/* ── SKILLS ── */
+/* Compétences */
 #skills { border-top: 1px solid var(--border); background: var(--bg2); }
 
 .skills-grid {
@@ -338,7 +338,7 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
   letter-spacing: 0.05em;
 }
 
-/* ── EXPERIENCE ── */
+/* Expérience */
 #experience { border-top: 1px solid var(--border); }
 
 .timeline { position: relative; padding-left: 2rem; }
@@ -368,7 +368,7 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
 .timeline-company { font-size: 0.9rem; color: var(--muted); margin-bottom: 0.8rem; }
 .timeline-desc { color: var(--muted); line-height: 1.7; font-size: 0.9rem; }
 
-/* ── FORMATION ── */
+/* Formation */
 #formation { border-top: 1px solid var(--border); background: var(--bg2); }
 
 .formation-cards {
@@ -398,7 +398,7 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
 .formation-degree { font-size: 1rem; font-weight: 700; margin-bottom: 0.3rem; }
 .formation-school { font-size: 0.85rem; color: var(--muted); }
 
-/* ── CONTACT ── */
+/* Contact */
 #contact { border-top: 1px solid var(--border); text-align: center; }
 
 .contact-big {
@@ -437,7 +437,7 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
 }
 .contact-link:hover { border-color: var(--accent); color: var(--accent); }
 
-/* ── FOOTER ── */
+/* Pied de page */
 footer {
   border-top: 1px solid var(--border);
   padding: 2rem 4rem;
@@ -452,7 +452,7 @@ footer p {
 }
 .footer-accent { color: var(--accent); }
 
-/* ── ANIMATIONS ── */
+/* Animations */
 .fade-in {
   opacity: 0; transform: translateY(24px);
   transition: opacity 0.7s ease, transform 0.7s ease;
@@ -489,7 +489,7 @@ footer p {
   97% { transform: none; opacity: 0; }
 }
 
-/* ── RESPONSIVE ── */
+/* Mobile */
 @media (max-width: 768px) {
   nav { padding: 1rem 1.5rem; }
   nav ul { display: none; }
