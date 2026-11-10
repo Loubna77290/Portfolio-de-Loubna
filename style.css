@@ -17,9 +17,10 @@ html { scroll-behavior: smooth; }
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: 'Syne', sans-serif;
+  font-family: 'Poppins', sans-serif;
   overflow-x: hidden;
   cursor: none;
+  line-height: 1.6;
 }
 
 /* Curseur */
@@ -69,7 +70,7 @@ nav {
 }
 
 .nav-logo {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.1rem;
   color: var(--accent);
   text-decoration: none;
@@ -102,8 +103,8 @@ nav a:hover::after { width: 100%; }
   border: 1px solid var(--accent);
   color: var(--accent) !important;
   padding: 0.5rem 1.2rem;
-  font-family: 'Space Mono', monospace;
-  font-size: 0.8rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
   cursor: pointer;
   transition: all 0.2s;
 }
@@ -121,8 +122,8 @@ nav a:hover::after { width: 100%; }
 
 .hero-tag {
   display: inline-flex; align-items: center; gap: 0.5rem;
-  font-family: 'Space Mono', monospace;
-  font-size: 0.75rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
   color: var(--accent);
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -174,7 +175,7 @@ h1 .accent-name {
   color: var(--bg);
   border: none;
   padding: 0.85rem 2rem;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   font-weight: 700;
   letter-spacing: 0.05em;
@@ -191,7 +192,7 @@ h1 .accent-name {
   color: var(--text);
   border: 1px solid var(--border);
   padding: 0.85rem 2rem;
-  font-family: 'Syne', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
@@ -230,8 +231,8 @@ h1 .accent-name {
 .badge-inner { animation: rotate-slow 20s linear infinite reverse; text-align: center; }
 .badge-emoji { font-size: 2.5rem; display: block; margin-bottom: 0.3rem; }
 .badge-label {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.65rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
   color: var(--accent);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -245,8 +246,8 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
   margin-bottom: 3.5rem;
 }
 .section-num {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.7rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
   color: var(--accent);
   letter-spacing: 0.1em;
 }
@@ -285,14 +286,14 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
   display: flex; flex-direction: column; gap: 0.3rem;
 }
 .stat-num {
-  font-family: 'Space Mono', monospace;
+  font-family: 'Poppins', sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
   color: var(--accent);
   line-height: 1;
 }
 .stat-label {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -330,8 +331,8 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
 
 .skill-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1rem; }
 .skill-tag {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.65rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
   padding: 0.25rem 0.6rem;
   border: 1px solid var(--border);
   color: var(--muted);
@@ -357,8 +358,8 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
   box-shadow: 0 0 12px var(--accent);
 }
 .timeline-date {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.7rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
   color: var(--accent);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -389,8 +390,8 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
 }
 .formation-card:hover::after { width: 100%; }
 .formation-year {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.7rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
   color: var(--accent);
   letter-spacing: 0.1em;
   margin-bottom: 0.5rem;
@@ -430,8 +431,8 @@ section { padding: 6rem 4rem; position: relative; z-index: 1; }
   border: 1px solid var(--border);
   color: var(--muted);
   text-decoration: none;
-  font-family: 'Space Mono', monospace;
-  font-size: 0.75rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
   letter-spacing: 0.05em;
   transition: all 0.2s;
 }
@@ -445,8 +446,8 @@ footer {
   position: relative; z-index: 1;
 }
 footer p {
-  font-family: 'Space Mono', monospace;
-  font-size: 0.7rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
   color: var(--muted);
   letter-spacing: 0.05em;
 }
