@@ -1,4 +1,4 @@
-// ── CUSTOM CURSOR ──
+// Curseur
 const cursor = document.getElementById('cursor');
 const ring   = document.getElementById('cursorRing');
 
@@ -21,7 +21,7 @@ function animateRing() {
 }
 animateRing();
 
-// Scale cursor on hover over links/buttons
+// Agrandit le curseur sur les liens et boutons
 document.querySelectorAll('a, button').forEach(el => {
   el.addEventListener('mouseenter', () => {
     ring.style.transform  = 'translate(-50%, -50%) scale(1.8)';
@@ -34,7 +34,7 @@ document.querySelectorAll('a, button').forEach(el => {
   });
 });
 
-// ── SCROLL FADE-IN ANIMATIONS ──
+// Apparition des sections au scroll
 const observer = new IntersectionObserver(entries => {
   entries.forEach((entry, i) => {
     if (entry.isIntersecting) {
@@ -45,7 +45,7 @@ const observer = new IntersectionObserver(entries => {
 
 document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
 
-// ── ACTIVE NAV LINK ON SCROLL ──
+// Lien actif dans le menu
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('nav a[href^="#"]');
 
